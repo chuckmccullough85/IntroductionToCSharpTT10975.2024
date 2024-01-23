@@ -11,6 +11,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "VisualStudio", "VisualStudi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloIntro", "solutions\VisualStudio\HelloIntro\HelloIntro.csproj", "{1E9CBD7C-4CF8-4580-ACB3-3030BB46E7BF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Operators", "solutions\Operators\Operators.csproj", "{493A1D2C-06C1-4A99-839E-D91695140BE8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,10 @@ Global
 		{1E9CBD7C-4CF8-4580-ACB3-3030BB46E7BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E9CBD7C-4CF8-4580-ACB3-3030BB46E7BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1E9CBD7C-4CF8-4580-ACB3-3030BB46E7BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{493A1D2C-06C1-4A99-839E-D91695140BE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{493A1D2C-06C1-4A99-839E-D91695140BE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{493A1D2C-06C1-4A99-839E-D91695140BE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{493A1D2C-06C1-4A99-839E-D91695140BE8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -33,6 +39,7 @@ Global
 		{E179398E-9D41-4ACB-9F39-0A4765C526C0} = {389A6295-2416-4E55-9E9D-8B67FB90EC73}
 		{4518B811-75A5-4AD2-B5E3-EDAF21EEDFC1} = {389A6295-2416-4E55-9E9D-8B67FB90EC73}
 		{1E9CBD7C-4CF8-4580-ACB3-3030BB46E7BF} = {4518B811-75A5-4AD2-B5E3-EDAF21EEDFC1}
+		{493A1D2C-06C1-4A99-839E-D91695140BE8} = {389A6295-2416-4E55-9E9D-8B67FB90EC73}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C59E759E-3093-4ACC-A8B6-AA809587A063}

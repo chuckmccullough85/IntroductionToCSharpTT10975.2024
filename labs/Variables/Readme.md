@@ -20,8 +20,9 @@ We will then use ```Console.WriteLine()``` to display the values
 1. Initialize the variables with literals
 1. Using interpolated strings ($"") and ```Console.WriteLine```, display the variable's values
  
- Note (Visual Studio):  If your solution has multiple projects, the *startup project* will execute when you run.  To select the startup project, look a the dropdown list in the toolbar:![Startup img](startupproj.jpg)
+ >Note (Visual Studio):  If your solution has multiple projects, the *startup project* will execute when you run.  To select the startup project, look a the dropdown list in the toolbar:![Startup img](startupproj.jpg)
  
  ---
 
+>Note (VS Code): The *C# Dev Kit* extension has a feature that will run the current project.  To use it, right-click on the project in the *Solution Explorer* and select *Run Project* from the context menu.  ![Run Project](../VisualStudio/runvscodeproject.jpg)
  
