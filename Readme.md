@@ -1,6 +1,11 @@
 ﻿# Table of Contents
-- [Visual Studio](labs/VisualStudio)
-- [Variables](labs/Variables)
-
-
-
+[Visual Studio](labs/VisualStudio)
+[Variables](labs/Variables)
+[Operators](labs/Operators)
+[While Loops](labs/WhileLoop)
+[For Loops](labs/ForLoop)
+[Conditionals](labs/Conditionals)
+[Arrays](labs/Arrays)
+[Strings and Console](labs/StringsConsole)
+[BubbleSort](labs/BubbleSort)
+[References](labs/References)
