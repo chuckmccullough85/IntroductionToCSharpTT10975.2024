@@ -15,14 +15,14 @@ d1.Speak();
 
 var bigCircle = new Circle(100);
 var smallCircle = new Circle(1);
-Console.WriteLine($"Big circle area: {bigCircle.GetArea()}");
-Console.WriteLine($"Small circle area: {smallCircle.GetArea()}");
+Console.WriteLine($"Big circle area: {bigCircle.Area}");
+Console.WriteLine($"Small circle area: {smallCircle.Area}");
 
 Console.Write("Enter a radius: ");
 var radius = double.Parse(Console.ReadLine()!);
 var userCircle = new Circle(radius);
-Console.WriteLine($@"User circle area: {userCircle.GetArea()}, 
-circumference: {userCircle.GetCircumference()}");
+Console.WriteLine($@"User circle area: {userCircle.Area},  
+circumference: {userCircle.Circumference}");
 
 
 class Circle

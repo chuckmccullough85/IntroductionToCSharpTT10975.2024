@@ -22,8 +22,8 @@ The instructor will guide you along creating and running a new application in bo
    1. Change the location if desired
    2. Change the solution name to *Labs*
 6. Click *Next*
-7. Choose *.NET 8.0* as the target framework
-   1. if you don't see *.NET 8.0* in the list, cancel and see the instructions for installing the .NET 8.0 SDK below.
+7. Choose *.NET 9.0* as the target framework
+   1. if you don't see *.NET 9.0* in the list, cancel and see the instructions for installing the .NET 9.0 SDK below.
 8. Click *Create*
 
 ### VS Code
@@ -49,6 +49,6 @@ The instructor will guide you along creating and running a new application in bo
 6. Execute the program from the command shell
 
 
-### Installing the .NET 8.0 SDK
-1. Open a browser and navigate to https://dotnet.microsoft.com/download/dotnet/8.0
+### Installing the .NET 9.0 SDK
+1. Open a browser and navigate to https://dotnet.microsoft.com/download/dotnet/9.0
 2. Follow the instructions to install the SDK on your platform.

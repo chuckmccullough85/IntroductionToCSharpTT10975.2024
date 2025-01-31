@@ -4,7 +4,7 @@ bool done = false;
 while (!done)
 {
     Console.Write("Enter a fahrenheit temperature: ");
-    var text = Console.ReadLine();
+    var text = Console.ReadLine()!;
     if (text.Length != 0)
     {
         var F = double.Parse(text.Trim());

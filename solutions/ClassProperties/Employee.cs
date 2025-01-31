@@ -1,7 +1,7 @@
 ﻿
 public class Employee
 {
-    private string _name;
+    private string _name = string.Empty;
     private uint _id;
     private float _salary;
     private float _ytdSalary;
