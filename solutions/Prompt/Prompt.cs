@@ -52,7 +52,7 @@ public static class Prompt
             return DateTime.Parse(def);
         while (true)
         {
-            if (DateTime.TryParse(Console.ReadLine(), out DateTime date))
+            if (DateTime.TryParse(input, out DateTime date))
                 return date;
             Console.WriteLine("Invalid date format.");
         }
