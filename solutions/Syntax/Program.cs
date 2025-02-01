@@ -7,6 +7,8 @@ int myvariable;
 int MyVariable;
 //int 9lives; // invalid
 
+myvariable = MyVariable = 5;
+Console.WriteLine ($"{myvariable} ${MyVariable}");
 // declaring (or defining) a variable is
 // type name;
 int myInt;
@@ -19,7 +21,7 @@ int myInt;
 myInt = 5;
 // initialization - giving a variable a value when it is declared
 int myInt2 = 5;
-
+Console.WriteLine($"{myInt} {myInt2}");
 // type strictness
 // once a variable is declared with a type, it cannot be changed
 //myInt = "hello"; // invalid - myInt is an int, not a string
@@ -90,4 +92,4 @@ double x = double.Parse("3.14");
 
 short sh = 15;
 int i = sh; // implicit conversion
-short sh2 = (short)j; // explicit conversion
+//short sh2 = (short)j; // explicit conversion

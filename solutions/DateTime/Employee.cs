@@ -4,7 +4,7 @@ using Locations;
 public class Employee
 {
     const float TAX_RATE = .0765f;
-    private string _name;
+    private string _name = string.Empty;
     private int _id;
     private float _salary;
     private float _ytdSalary;

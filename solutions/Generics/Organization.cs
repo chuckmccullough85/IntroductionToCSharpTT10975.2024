@@ -1,5 +1,5 @@
 ﻿
-using Location;
+using Locations;
 
 namespace Payroll
 {

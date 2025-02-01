@@ -5,7 +5,7 @@ namespace Payroll
     public class HumanResource : Payable
     {
         private int _id;
-        private string _name;
+        private string _name = string.Empty;
         public DateTime DateOfBirth { get; set; }
 
         public Address? HomeAddress { get; set; }

@@ -22,13 +22,7 @@ public class Employee
         _ytdTax= 0;
         DateOfBirth = dateOfBirth;
     }
-    {
-        Name = name;
-        Id = id;
-        Salary = salary;
-        _ytdSalary= 0;
-        _ytdTax= 0;
-    }
+
     public string Name 
     {
         get => _name; 
@@ -60,7 +54,7 @@ public class Employee
     }
     public float YtdTax 
     {
-        get => return _ytdTax; 
+        get => _ytdTax; 
     }
 
     public DateTime? DateOfBirth { get; set;}

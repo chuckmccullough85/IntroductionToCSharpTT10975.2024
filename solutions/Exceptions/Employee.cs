@@ -53,7 +53,7 @@ public class Employee
     }
     public float YtdTax
     {
-        get => return _ytdTax;
+        get => _ytdTax;
     }
 
     public DateTime? DateOfBirth { get; set; }
