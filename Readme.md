@@ -33,3 +33,5 @@
 - [PaywizUI](labs/PaywizUI)
 - [Lambda](labs/Lambda)
 - [Linq](labs/Linq)
+- [PaywizEditEmp](labs/PaywizEditEmp)
+- [PaywizPersist](labs/PaywizPersist)
