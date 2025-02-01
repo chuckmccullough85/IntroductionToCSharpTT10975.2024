@@ -18,11 +18,11 @@ In this exercise, we will create a simple UI for Paywiz.  We won't fully impleme
 Before we get started, our application needs to use the *Employee, Contractor, Organization, etc.* classes that we created earlier.  You could just copy and paste the files from one project to another, but then you would have multiple places to update if a change is needed.  Instead, we will *reference* the other project from our UI project. 
 
 ## Visual Studio
-- Right-click on the PaywizUI project and select *Add* -> *Project Reference...* and choose the *Interface* project.
+- Right-click on the PaywizUI project and select *Add* -> *Project Reference...* and choose the *Delegates* project.
 
 ## VS Code
 - Open a terminal in the same folder has the PaywizUI project and type
-`dotnet add reference ../Interface/Interface.csproj `
+`dotnet add reference ../Delegates/Delegates.csproj `
 
 ### View
 - Create a new abstract class `View<M>`

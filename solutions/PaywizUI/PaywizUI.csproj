@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
-    <ProjectReference Include="..\Interface\Interface.csproj" />
+    <ProjectReference Include="..\Delegates\Delegates.csproj" />
   </ItemGroup>
 
   <PropertyGroup>
