@@ -11,8 +11,6 @@ namespace Payroll
             TaxId= taxid;
         }
 
-         public Action<Payable>? PayProcessor { get; set; }
-
         public string Name { get; set; }
         public string TaxId { get; set; }
         public Address? Address { get; set; }    
@@ -23,11 +21,8 @@ namespace Payroll
         public float Pay()
         {
             float total = 0;
-            foreach (var r in Employees)
-            {
-                total += r.Pay();
-                PayProcessor?.Invoke(r);
-            }
+            foreach (var employee in Employees)
+                total += employee.Pay();
             return total;
         }
     }
