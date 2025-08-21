@@ -1,6 +1,6 @@
 ## Overview
 
-Get acquainted with Visual Studio projects.
+Get acquainted with Visual Studio Testingprojects.Testing
 
 | | |
 | --- | ----- |
@@ -16,9 +16,9 @@ The instructor will guide you along creating and running a new application in bo
 ### Visual Studio
 1. Open Visual Studio
 2. Create a new project 
-3. Select the Console Application template ![project template img](projtempl.jpg)
+3. Select the Console Application template ![project template img](./projtempl.jpg)
 4. Click Next
-5. Name the project "HelloIntro" ![project name img](projname.jpg)
+5. Name the project "HelloIntro" ![project name img](./projname.jpg)
    1. Change the location if desired
    2. Change the solution name to *Labs*
 6. Click *Next*
@@ -38,7 +38,7 @@ The instructor will guide you along creating and running a new application in bo
    2. `dotnet run` from the VS Code command palette
    3. `F5` to run the project in debug mode
    4. `Ctrl+F5` to run the project without debugging
-   5. In the solution explorer, right-click the project and select *Run* or *Debug*  ![run project img](runvscodeproject.jpg)
+   5. In the solution explorer, right-click the project and select *Run* or *Debug*  ![run project img](./runvscodeproject.jpg)
 
 ### On your own:
 1. Create a new C# Console application
